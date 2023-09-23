@@ -1,8 +1,13 @@
+import FeaturedJob from "../../FeaturedJob/FeaturedJob";
+import JobCategory from "../../JobCategory/JobCategory";
+import Banner from "../Banner/Banner";
 
 const Home = () => {
     return (
         <div>
-            <h2>Home</h2>
+            <Banner></Banner>
+            <JobCategory></JobCategory>
+            <FeaturedJob></FeaturedJob>
         </div>
     );
 };
